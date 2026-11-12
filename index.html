@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michigan Money Saver — Personal Equipment Classifieds</title>
+<style>
+  :root {
+    --white: #FFFFFF;
+    --crimson: #C8102E;
+    --crimson-dark: #A30C25;
+    --black: #111111;
+    --gray-text: #3d3d3d;
+    --gray-border: #e3e3e3;
+    --gray-bg: #f6f6f6;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--white);
+    color: var(--black);
+    line-height: 1.5;
+  }
+
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px 16px 48px 16px;
+  }
+
+  /* ---- Nameplate: the paper's block logo treatment ---- */
+  .nameplate {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .logo-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .logo-block {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    padding: 10px 18px;
+    line-height: 1.1;
+  }
+
+  .logo-michigan {
+    background: var(--crimson);
+    color: var(--white);
+  }
+
+  .logo-moneysaver {
+    background: var(--black);
+    color: var(--white);
+  }
+
+  .tagline {
+    margin-top: 14px;
+    color: var(--crimson);
+    font-size: 0.95rem;
+    font-weight: bold;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+  }
+
+  .rule {
+    border: none;
+    border-top: 3px solid var(--crimson);
+    margin: 20px 0 28px 0;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    margin: 0 0 12px 0;
+    color: var(--black);
+  }
+
+  p {
+    color: var(--gray-text);
+    font-size: 1.05rem;
+    margin: 0 0 16px 0;
+  }
+
+  .lane-list {
+    background: var(--gray-bg);
+    border: 1px solid var(--gray-border);
+    padding: 16px 20px;
+    margin: 0 0 24px 0;
+  }
+
+  .lane-list p {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+    color: var(--black);
+  }
+
+  .lane-list ul {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--gray-text);
+  }
+
+  .lane-list li {
+    margin-bottom: 4px;
+  }
+
+  .interim {
+    border-left: 4px solid var(--crimson);
+    padding: 4px 0 4px 14px;
+    margin: 0 0 28px 0;
+  }
+
+  .interim p {
+    margin: 0;
+  }
+
+  .board-button {
+    display: inline-block;
+    background: var(--crimson);
+    color: var(--white);
+    font-size: 1.15rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 14px 28px;
+    border: 2px solid var(--crimson-dark);
+  }
+
+  .board-button:hover,
+  .board-button:focus {
+    background: var(--crimson-dark);
+  }
+
+  .button-note {
+    font-size: 0.9rem;
+    color: var(--gray-text);
+    margin-top: 10px;
+  }
+
+  footer {
+    margin-top: 48px;
+    border-top: 1px solid var(--gray-border);
+    padding-top: 14px;
+    font-size: 0.85rem;
+    color: var(--gray-text);
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    .logo-block {
+      font-size: 1.45rem;
+      padding: 8px 12px;
+    }
+
+    .tagline {
+      letter-spacing: 0.22em;
+      font-size: 0.85rem;
+    }
+
+    h1 {
+      font-size: 1.35rem;
+    }
+
+    .board-button {
+      display: block;
+      text-align: center;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header class="nameplate">
+      <div class="logo-blocks">
+        <span class="logo-block logo-michigan">Michigan</span><span class="logo-block logo-moneysaver">MoneySaver</span>
+      </div>
+      <div class="tagline">Personal Equipment Classifieds</div>
+    </header>
+
+    <hr class="rule">
+
+    <main>
+      <h1>Personal equipment classifieds, right here.</h1>
+
+      <p>
+        This is the personal door of Michigan Money Saver. If you have got
+        something in the barn, the garage, or the yard that somebody else
+        could use, this is your lane — personal equipment classifieds for
+        everyday folks buying, selling, and trading.
+      </p>
+
+      <div class="lane-list">
+        <p>What belongs in this lane:</p>
+        <ul>
+          <li>Equipment and machinery</li>
+          <li>Tools</li>
+          <li>Farm goods</li>
+          <li>Personal items</li>
+        </ul>
+      </div>
+
+      <div class="interim">
+        <p>
+          We are still standing up the full board at this address. Until it
+          is ready, the classifieds board is open and running — head on
+          over and take a look.
+        </p>
+      </div>
+
+      <a class="board-button" href="https://garagesave-7hz4377a.manus.space">Go to the Classifieds Board</a>
+      <p class="button-note">That is where the listings live while this door is being finished.</p>
+    </main>
+
+    <footer>
+      Michigan Money Saver — michiganmoneysaver.shop — Personal Equipment Classifieds<br>
+      &copy; <span id="year">2026</span> Michigan Money Saver
+    </footer>
+
+  </div>
+
+<script>
+  // Keep the footer year current without any outside help.
+  (function () {
+    var yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = String(new Date().getFullYear());
+    }
+  })();
+</script>
+</body>
+</html>
